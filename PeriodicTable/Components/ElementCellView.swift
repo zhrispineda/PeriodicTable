@@ -16,6 +16,7 @@ struct ElementCellView: View {
         VStack {
             HStack {
                 Text("\(atomicNumber)") // Atomic Number
+                    .bold()
                 Spacer()
                 Text("\(atomicMass, specifier: "%.4f")") // Atomic Mass
             }
@@ -27,10 +28,10 @@ struct ElementCellView: View {
             Text(element) // Element
         }
         .foregroundStyle(.white)
-        .padding()
+        .padding(10)
         .frame(width: 100, height: 130)
         .font(.footnote)
-        .background(Color.blue.gradient)
+        .background(Color.blue.gradient.opacity(0.9))
         .clipShape(RoundedRectangle(cornerRadius: 15.0))
     }
 }

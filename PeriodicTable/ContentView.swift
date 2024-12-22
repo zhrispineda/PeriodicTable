@@ -41,6 +41,7 @@ struct ContentView: View {
                 }
             }
             .frame(maxWidth: .infinity, alignment: .topLeading)
+            .contentMargins(10, for: .scrollContent)
             .navigationTitle("Periodic Table")
             .scrollIndicators(.hidden)
         }

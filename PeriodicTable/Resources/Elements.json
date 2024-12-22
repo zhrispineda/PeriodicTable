@@ -78,5 +78,213 @@
         "mass": 20.180,
         "row": 2,
         "column": 18
+    },
+    {
+        "id": 11,
+        "element": "Sodium",
+        "symbol": "Na",
+        "mass": 22.990,
+        "row": 3,
+        "column": 1
+    },
+    {
+        "id": 12,
+        "element": "Magnesium",
+        "symbol": "Mg",
+        "mass": 24.305,
+        "row": 3,
+        "column": 2
+    },
+    {
+        "id": 13,
+        "element": "Aluminum",
+        "symbol": "Al",
+        "mass": 26.982,
+        "row": 3,
+        "column": 13
+    },
+    {
+        "id": 14,
+        "element": "Silicon",
+        "symbol": "Si",
+        "mass": 28.088,
+        "row": 3,
+        "column": 14
+    },
+    {
+        "id": 15,
+        "element": "Phosphorus",
+        "symbol": "P",
+        "mass": 30.974,
+        "row": 3,
+        "column": 15
+    },
+    {
+        "id": 16,
+        "element": "Sulfur",
+        "symbol": "S",
+        "mass": 32.065,
+        "row": 3,
+        "column": 16
+    },
+    {
+        "id": 17,
+        "element": "Chlorine",
+        "symbol": "Cl",
+        "mass": 35.453,
+        "row": 3,
+        "column": 17
+    },
+    {
+        "id": 18,
+        "element": "Argon",
+        "symbol": "Ar",
+        "mass": 39.948,
+        "row": 3,
+        "column": 18
+    },
+    {
+        "id": 19,
+        "element": "Potassium",
+        "symbol": "K",
+        "mass": 39.098,
+        "row": 4,
+        "column": 1
+    },
+    {
+        "id": 20,
+        "element": "Calcium",
+        "symbol": "Ca",
+        "mass": 40.078,
+        "row": 4,
+        "column": 2
+    },
+    {
+        "id": 21,
+        "element": "Scandium",
+        "symbol": "Sc",
+        "mass": 44.956,
+        "row": 4,
+        "column": 3
+    },
+    {
+        "id": 22,
+        "element": "Titanium",
+        "symbol": "Ti",
+        "mass": 47.867,
+        "row": 4,
+        "column": 4
+    },
+    {
+        "id": 23,
+        "element": "Vanadium",
+        "symbol": "V",
+        "mass": 50.942,
+        "row": 4,
+        "column": 5
+    },
+    {
+        "id": 24,
+        "element": "Chromium",
+        "symbol": "Cr",
+        "mass": 51.996,
+        "row": 4,
+        "column": 6
+    },
+    {
+        "id": 25,
+        "element": "Manganese",
+        "symbol": "Mn",
+        "mass": 54.938,
+        "row": 4,
+        "column": 7
+    },
+    {
+        "id": 26,
+        "element": "Iron",
+        "symbol": "Fe",
+        "mass": 55.845,
+        "row": 4,
+        "column": 8
+    },
+    {
+        "id": 27,
+        "element": "Cobalt",
+        "symbol": "Co",
+        "mass": 58.933,
+        "row": 4,
+        "column": 9
+    },
+    {
+        "id": 28,
+        "element": "Nickel",
+        "symbol": "Ni",
+        "mass": 58.693,
+        "row": 4,
+        "column": 10
+    },
+    {
+        "id": 29,
+        "element": "Copper",
+        "symbol": "Cu",
+        "mass": 63.546,
+        "row": 4,
+        "column": 11
+    },
+    {
+        "id": 30,
+        "element": "Zinc",
+        "symbol": "Zn",
+        "mass": 65.380,
+        "row": 4,
+        "column": 12
+    },
+    {
+        "id": 31,
+        "element": "Gallium",
+        "symbol": "Ga",
+        "mass": 69.723,
+        "row": 4,
+        "column": 13
+    },
+    {
+        "id": 32,
+        "element": "Germanium",
+        "symbol": "Ge",
+        "mass": 72.640,
+        "row": 4,
+        "column": 14
+    },
+    {
+        "id": 33,
+        "element": "Arsenic",
+        "symbol": "As",
+        "mass": 74.922,
+        "row": 4,
+        "column": 15
+    },
+    {
+        "id": 34,
+        "element": "Selenium",
+        "symbol": "Se",
+        "mass": 78.960,
+        "row": 4,
+        "column": 16
+    },
+    {
+        "id": 35,
+        "element": "Bromine",
+        "symbol": "Br",
+        "mass": 79.904,
+        "row": 4,
+        "column": 17
+    },
+    {
+        "id": 36,
+        "element": "Krypton",
+        "symbol": "Kr",
+        "mass": 83.798,
+        "row": 4,
+        "column": 18
     }
 ]

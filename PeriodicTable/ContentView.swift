@@ -9,7 +9,7 @@ struct ContentView: View {
     // Variables
     @Namespace var animation
     @State private var selected: Element?
-    var elements: [Element] = load("Elements.json")
+    var elements: [Element] = ElementModel().load("Elements.json")
     
     var body: some View {
         NavigationStack {
@@ -45,26 +45,6 @@ struct ContentView: View {
             .navigationTitle("Periodic Table")
             .scrollIndicators(.hidden)
         }
-    }
-}
-
-struct Element: Identifiable, Codable {
-    var id: Int
-    var element: String
-    var symbol: String
-    var mass: Double
-    var row: Int
-    var column: Int
-}
-
-func load<T: Decodable>(_ filename: String) -> T {
-    let url = Bundle.main.url(forResource: filename, withExtension: nil)!
-    
-    do {
-        let data = try Data(contentsOf: url)
-        return try JSONDecoder().decode(T.self, from: data)
-    } catch {
-        fatalError("Couldn't load \(filename): \(error)")
     }
 }
 

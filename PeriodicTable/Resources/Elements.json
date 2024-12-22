@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "element": "Hydrogen",
+        "symbol": "H",
+        "mass": 1.0078,
+        "row": 1,
+        "column": 1
+    },
+    {
+        "id": 2,
+        "element": "Helium",
+        "symbol": "He",
+        "mass": 4.0026,
+        "row": 1,
+        "column": 18
+    }
+]

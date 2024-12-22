@@ -6,19 +6,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Variables
+    @Namespace var animation
+    @State private var selected: Element?
+    var elements: [Element] = load("Elements.json")
+    
     var body: some View {
         NavigationStack {
             ScrollView([.horizontal, .vertical]) {
-                ForEach(1..<10) { column in
-                    LazyVStack(alignment: .leading) {
-                        LazyHStack(alignment: .top) {
-                            ForEach(1..<19) { row in
-                                Button {} label: {
-                                    ElementView(element: "Hydrogen", symbol: "H", atomicNumber: 1, atomicMass: 1.0078)
+                LazyHStack(alignment: .top) {
+                    ForEach(1..<19) { column in
+                        LazyVStack(alignment: .leading) {
+                            ForEach(1..<10) { row in
+                                // Display matching element based on column and row, otherwise display blank space
+                                if let element = elements.first(where: { $0.column == column && $0.row == row }) {
+                                    Button {
+                                        selected = element
+                                    } label: {
+                                        ElementCellView(element: element.element, symbol: element.symbol, atomicNumber: element.id, atomicMass: element.mass)
+                                    }
+                                    .matchedTransitionSource(id: element.id, in: animation)
+                                } else {
+                                    Rectangle()
+                                        .frame(width: 100, height: 130)
+                                        .opacity(0)
                                 }
                             }
                         }
                     }
+                }
+                .sheet(item: $selected) { element in
+                    // Allows for zoom transition to ElementDetailView when tapping an element
+                    ElementDetailView(element: element, animation: animation)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .topLeading)
@@ -28,32 +47,23 @@ struct ContentView: View {
     }
 }
 
-struct ElementView: View {
-    let element: String
-    let symbol: String
-    let atomicNumber: Int
-    let atomicMass: Double
+struct Element: Identifiable, Codable {
+    var id: Int
+    var element: String
+    var symbol: String
+    var mass: Double
+    var row: Int
+    var column: Int
+}
+
+func load<T: Decodable>(_ filename: String) -> T {
+    let url = Bundle.main.url(forResource: filename, withExtension: nil)!
     
-    var body: some View {
-        VStack {
-            HStack {
-                Text("\(atomicNumber)") // Atomic Number
-                Spacer()
-                Text("\(atomicMass, specifier: "%.4f")") // Atomic Mass
-            }
-            Spacer()
-            Text(symbol) // Symbol
-                .fontWeight(.bold)
-                .font(.system(size: 50))
-            Spacer()
-            Text(element) // Element
-        }
-        .foregroundStyle(.white)
-        .padding()
-        .frame(width: 100, height: 130)
-        .font(.footnote)
-        .background(Color.blue.gradient)
-        .clipShape(RoundedRectangle(cornerRadius: 15.0))
+    do {
+        let data = try Data(contentsOf: url)
+        return try JSONDecoder().decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't load \(filename): \(error)")
     }
 }
 

@@ -18,7 +18,7 @@ struct ElementCellView: View {
                 Text("\(atomicNumber)") // Atomic Number
                     .bold()
                 Spacer()
-                Text("\(atomicMass, specifier: "%.4f")") // Atomic Mass
+                Text("\(atomicMass, specifier: "%.3f")") // Atomic Mass
             }
             Spacer()
             Text(symbol) // Symbol

@@ -24,10 +24,13 @@ struct ElementDetailView: View {
             
             // Information Section
             Section("Information") {
-                LabeledContent("Atomic Number", value: "\(element.id)")
-                LabeledContent("Atomic Mass", value: "\(element.mass)")
-                LabeledContent("Symbol", value: element.symbol)
-                LabeledContent("Name", value: element.element)
+                Group {
+                    LabeledContent("Atomic Number", value: "\(element.id)")
+                    LabeledContent("Atomic Mass", value: "\(element.mass)")
+                    LabeledContent("Symbol", value: element.symbol)
+                    LabeledContent("Name", value: element.element)
+                }
+                .textSelection(.enabled)
             }
         }
         .navigationTransition(.zoom(sourceID: element.id, in: animation))

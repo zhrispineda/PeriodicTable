@@ -286,5 +286,149 @@
         "mass": 83.798,
         "row": 4,
         "column": 18
+    },
+    {
+        "id": 37,
+        "element": "Rubidium",
+        "symbol": "Rb",
+        "mass": 85.468,
+        "row": 5,
+        "column": 1
+    },
+    {
+        "id": 38,
+        "element": "Strontium",
+        "symbol": "Sr",
+        "mass": 87.620,
+        "row": 5,
+        "column": 2
+    },
+    {
+        "id": 39,
+        "element": "Yttrium",
+        "symbol": "Y",
+        "mass": 89.906,
+        "row": 5,
+        "column": 3
+    },
+    {
+        "id": 40,
+        "element": "Zirconium",
+        "symbol": "Zr",
+        "mass": 91.224,
+        "row": 5,
+        "column": 4
+    },
+    {
+        "id": 41,
+        "element": "Niobium",
+        "symbol": "Nb",
+        "mass": 92.906,
+        "row": 5,
+        "column": 5
+    },
+    {
+        "id": 42,
+        "element": "Molybdenum",
+        "symbol": "Mo",
+        "mass": 95.950,
+        "row": 5,
+        "column": 6
+    },
+    {
+        "id": 43,
+        "element": "Technetium",
+        "symbol": "Tc",
+        "mass": 98.000,
+        "row": 5,
+        "column": 7
+    },
+    {
+        "id": 44,
+        "element": "Ruthenium",
+        "symbol": "Ru",
+        "mass": 101.0700,
+        "row": 5,
+        "column": 8
+    },
+    {
+        "id": 45,
+        "element": "Rhodium",
+        "symbol": "Rh",
+        "mass": 102.9100,
+        "row": 5,
+        "column": 9
+    },
+    {
+        "id": 46,
+        "element": "Palladium",
+        "symbol": "Pd",
+        "mass": 106.4200,
+        "row": 5,
+        "column": 10
+    },
+    {
+        "id": 47,
+        "element": "Silver",
+        "symbol": "Ag",
+        "mass": 107.8700,
+        "row": 5,
+        "column": 11
+    },
+    {
+        "id": 48,
+        "element": "Cadminum",
+        "symbol": "Cd",
+        "mass": 112.4100,
+        "row": 5,
+        "column": 12
+    },
+    {
+        "id": 49,
+        "element": "Indium",
+        "symbol": "In",
+        "mass": 114.8200,
+        "row": 5,
+        "column": 13
+    },
+    {
+        "id": 50,
+        "element": "Tin",
+        "symbol": "Sn",
+        "mass": 118.7100,
+        "row": 5,
+        "column": 14
+    },
+    {
+        "id": 51,
+        "element": "Antimony",
+        "symbol": "Sb",
+        "mass": 121.7600,
+        "row": 5,
+        "column": 15
+    },
+    {
+        "id": 52,
+        "element": "Tellurium",
+        "symbol": "Te",
+        "mass": 127.6000,
+        "row": 5,
+        "column": 16
+    },
+    {
+        "id": 53,
+        "element": "Iodine",
+        "symbol": "I",
+        "mass": 126.9000,
+        "row": 5,
+        "column": 17
+    },
+    {
+        "id": 54,
+        "element": "Xenon",
+        "symbol": "Xe",
+        "mass": 131.2900,
+        "row": 5,
+        "column": 18
     }
 ]

@@ -430,5 +430,149 @@
         "mass": 131.2900,
         "row": 5,
         "column": 18
+    },
+    {
+        "id": 55,
+        "element": "Caesium",
+        "symbol": "Cs",
+        "mass": 132.91,
+        "row": 6,
+        "column": 1
+    },
+    {
+        "id": 56,
+        "element": "Barium",
+        "symbol": "Ba",
+        "mass": 137.33,
+        "row": 6,
+        "column": 2
+    },
+    {
+        "id": 57,
+        "element": "Lanthanum",
+        "symbol": "La",
+        "mass": 138.91,
+        "row": 6,
+        "column": 3
+    },
+    {
+        "id": 72,
+        "element": "Hafnium",
+        "symbol": "Hf",
+        "mass": 178.49,
+        "row": 6,
+        "column": 4
+    },
+    {
+        "id": 73,
+        "element": "Tantalum",
+        "symbol": "Ta",
+        "mass": 180.95,
+        "row": 6,
+        "column": 5
+    },
+    {
+        "id": 74,
+        "element": "Tungsten",
+        "symbol": "W",
+        "mass": 183.84,
+        "row": 6,
+        "column": 6
+    },
+    {
+        "id": 75,
+        "element": "Rhenium",
+        "symbol": "Re",
+        "mass": 186.21,
+        "row": 6,
+        "column": 7
+    },
+    {
+        "id": 76,
+        "element": "Osmium",
+        "symbol": "Os",
+        "mass": 190.23,
+        "row": 6,
+        "column": 8
+    },
+    {
+        "id": 77,
+        "element": "Iridium",
+        "symbol": "Ir",
+        "mass": 192.22,
+        "row": 6,
+        "column": 9
+    },
+    {
+        "id": 78,
+        "element": "Platinum",
+        "symbol": "Pt",
+        "mass": 195.08,
+        "row": 6,
+        "column": 10
+    },
+    {
+        "id": 79,
+        "element": "Gold",
+        "symbol": "Au",
+        "mass": 196.97,
+        "row": 6,
+        "column": 11
+    },
+    {
+        "id": 80,
+        "element": "Mercury",
+        "symbol": "Hg",
+        "mass": 200.59,
+        "row": 6,
+        "column": 12
+    },
+    {
+        "id": 81,
+        "element": "Thallium",
+        "symbol": "Tl",
+        "mass": 204.38,
+        "row": 6,
+        "column": 13
+    },
+    {
+        "id": 82,
+        "element": "Lead",
+        "symbol": "Pb",
+        "mass": 207.20,
+        "row": 6,
+        "column": 14
+    },
+    {
+        "id": 83,
+        "element": "Bismuth",
+        "symbol": "Bi",
+        "mass": 208.98,
+        "row": 6,
+        "column": 15
+    },
+    {
+        "id": 84,
+        "element": "Polonium",
+        "symbol": "Po",
+        "mass": 209,
+        "row": 6,
+        "column": 16
+    },
+    {
+        "id": 85,
+        "element": "Astatine",
+        "symbol": "At",
+        "mass": 210,
+        "row": 6,
+        "column": 17
+    },
+    {
+        "id": 86,
+        "element": "Radon",
+        "symbol": "Rn",
+        "mass": 222,
+        "row": 6,
+        "column": 18
     }
 ]

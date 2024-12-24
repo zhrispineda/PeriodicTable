@@ -24,21 +24,22 @@ struct ContentView: View {
                                         selected = element
                                     } label: {
                                         ElementCellView(element: element.element, symbol: element.symbol, atomicNumber: element.id, atomicMass: element.mass)
+                                            .contextMenu {
+                                                Button {
+                                                    UIPasteboard.general.string = element.element
+                                                } label: {
+                                                    Label(element.element, systemImage: "document.on.document")
+                                                }
+                                                
+                                                Button {
+                                                    UIPasteboard.general.string = "\(element.mass) u"
+                                                } label: {
+                                                    Label("\(element.mass) u", systemImage: "document.on.document")
+                                                }
+                                            }
                                     }
+                                    .padding(.leading, column > 3 ? 30 : 0)
                                     .matchedTransitionSource(id: element.id, in: animation)
-                                    .contextMenu {
-                                        Button {
-                                            UIPasteboard.general.string = element.element
-                                        } label: {
-                                            Label(element.element, systemImage: "document.on.document")
-                                        }
-                                        
-                                        Button {
-                                            UIPasteboard.general.string = "\(element.mass) u"
-                                        } label: {
-                                            Label("\(element.mass) u", systemImage: "document.on.document")
-                                        }
-                                    }
                                 } else {
                                     Rectangle()
                                         .frame(width: 100, height: 130)

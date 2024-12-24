@@ -574,5 +574,149 @@
         "mass": 222,
         "row": 6,
         "column": 18
+    },
+    {
+        "id": 87,
+        "element": "Francium",
+        "symbol": "Fr",
+        "mass": 223,
+        "row": 7,
+        "column": 1
+    },
+    {
+        "id": 88,
+        "element": "Radium",
+        "symbol": "Ra",
+        "mass": 226,
+        "row": 7,
+        "column": 2
+    },
+    {
+        "id": 89,
+        "element": "Actinium",
+        "symbol": "Ac",
+        "mass": 227,
+        "row": 7,
+        "column": 3
+    },
+    {
+        "id": 104,
+        "element": "Rutherfordium",
+        "symbol": "Rf",
+        "mass": 267,
+        "row": 7,
+        "column": 4
+    },
+    {
+        "id": 105,
+        "element": "Dubnium",
+        "symbol": "Db",
+        "mass": 262,
+        "row": 7,
+        "column": 5
+    },
+    {
+        "id": 106,
+        "element": "Seaborgium",
+        "symbol": "Sg",
+        "mass": 269,
+        "row": 7,
+        "column": 6
+    },
+    {
+        "id": 107,
+        "element": "Bohrium",
+        "symbol": "Bh",
+        "mass": 264,
+        "row": 7,
+        "column": 7
+    },
+    {
+        "id": 108,
+        "element": "Hassium",
+        "symbol": "Hs",
+        "mass": 269,
+        "row": 7,
+        "column": 8
+    },
+    {
+        "id": 109,
+        "element": "Meitnerium",
+        "symbol": "Mt",
+        "mass": 278,
+        "row": 7,
+        "column": 9
+    },
+    {
+        "id": 110,
+        "element": "Darmstadtium",
+        "symbol": "Ds",
+        "mass": 281,
+        "row": 7,
+        "column": 10
+    },
+    {
+        "id": 111,
+        "element": "Roentgenium",
+        "symbol": "Rg",
+        "mass": 282,
+        "row": 7,
+        "column": 11
+    },
+    {
+        "id": 112,
+        "element": "Copernicium",
+        "symbol": "Cn",
+        "mass": 285,
+        "row": 7,
+        "column": 12
+    },
+    {
+        "id": 113,
+        "element": "Nihonium",
+        "symbol": "Nh",
+        "mass": 286,
+        "row": 7,
+        "column": 13
+    },
+    {
+        "id": 114,
+        "element": "Flerovium",
+        "symbol": "Fl",
+        "mass": 289,
+        "row": 7,
+        "column": 14
+    },
+    {
+        "id": 115,
+        "element": "Moscovium",
+        "symbol": "Mc",
+        "mass": 289,
+        "row": 7,
+        "column": 15
+    },
+    {
+        "id": 116,
+        "element": "Livermorium",
+        "symbol": "Lv",
+        "mass": 293,
+        "row": 7,
+        "column": 16
+    },
+    {
+        "id": 117,
+        "element": "Tennessine",
+        "symbol": "Ts",
+        "mass": 294,
+        "row": 7,
+        "column": 17
+    },
+    {
+        "id": 118,
+        "element": "Oganesson",
+        "symbol": "Og",
+        "mass": 294,
+        "row": 7,
+        "column": 18
     }
 ]

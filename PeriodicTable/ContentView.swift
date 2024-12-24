@@ -38,7 +38,6 @@ struct ContentView: View {
                                                 }
                                             }
                                     }
-                                    .padding(.leading, column > 3 ? 30 : 0)
                                     .matchedTransitionSource(id: element.id, in: animation)
                                 } else {
                                     Rectangle()
@@ -46,6 +45,12 @@ struct ContentView: View {
                                         .opacity(0)
                                 }
                             }
+                        }
+                        
+                        // Add spacing in-between rows 3 and 4
+                        if column == 3 {
+                            Rectangle()
+                                .opacity(0)
                         }
                     }
                 }

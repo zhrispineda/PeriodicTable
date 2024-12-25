@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		836BA4962D1B4A2900E8F16D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 836BA4952D1B4A2900E8F16D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8321BF0B2D053520002CE64D /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836BA4952D1B4A2900E8F16D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		8321BF022D053520002CE64D = {
 			isa = PBXGroup;
 			children = (
+				836BA4952D1B4A2900E8F16D /* README.md */,
 				8321BF0D2D053520002CE64D /* PeriodicTable */,
 				8321BF0C2D053520002CE64D /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836BA4962D1B4A2900E8F16D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

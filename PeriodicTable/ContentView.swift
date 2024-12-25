@@ -15,9 +15,9 @@ struct ContentView: View {
         NavigationStack {
             ScrollView([.horizontal, .vertical]) {
                 LazyHStack(alignment: .top) {
-                    ForEach(1..<19) { column in
+                    ForEach(1..<19) { row in
                         LazyVStack(alignment: .leading) {
-                            ForEach(1..<10) { row in
+                            ForEach(1..<10) { column in
                                 // Display matching element based on column and row, otherwise display blank space
                                 if let element = elements.first(where: { $0.column == column && $0.row == row }) {
                                     Button {
@@ -44,11 +44,17 @@ struct ContentView: View {
                                         .frame(width: 100, height: 130)
                                         .opacity(0)
                                 }
+                                
+                                // Add spacing in-between columns 7 and 8
+                                if column == 7 {
+                                    Rectangle()
+                                        .opacity(0)
+                                }
                             }
                         }
                         
                         // Add spacing in-between rows 3 and 4
-                        if column == 3 {
+                        if row == 3 {
                             Rectangle()
                                 .opacity(0)
                         }

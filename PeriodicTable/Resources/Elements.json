@@ -830,5 +830,117 @@
         "mass": 174.97,
         "column": 8,
         "row": 17
+    },
+    {
+        "id": 90,
+        "element": "Thorium",
+        "symbol": "Th",
+        "mass": 232.04,
+        "column": 9,
+        "row": 4
+    },
+    {
+        "id": 91,
+        "element": "Protactinium",
+        "symbol": "Pa",
+        "mass": 231.04,
+        "column": 9,
+        "row": 5
+    },
+    {
+        "id": 92,
+        "element": "Uranium",
+        "symbol": "U",
+        "mass": 238.03,
+        "column": 9,
+        "row": 6
+    },
+    {
+        "id": 93,
+        "element": "Neptunium",
+        "symbol": "Np",
+        "mass": 237.05,
+        "column": 9,
+        "row": 7
+    },
+    {
+        "id": 94,
+        "element": "Plutonium",
+        "symbol": "Pu",
+        "mass": 244,
+        "column": 9,
+        "row": 8
+    },
+    {
+        "id": 95,
+        "element": "Americium",
+        "symbol": "Am",
+        "mass": 243,
+        "column": 9,
+        "row": 9
+    },
+    {
+        "id": 96,
+        "element": "Curium",
+        "symbol": "Cm",
+        "mass": 247,
+        "column": 9,
+        "row": 10
+    },
+    {
+        "id": 97,
+        "element": "Berkelium",
+        "symbol": "Bk",
+        "mass": 247,
+        "column": 9,
+        "row": 11
+    },
+    {
+        "id": 98,
+        "element": "Californium",
+        "symbol": "Cf",
+        "mass": 251,
+        "column": 9,
+        "row": 12
+    },
+    {
+        "id": 99,
+        "element": "Einsteinium",
+        "symbol": "Es",
+        "mass": 252,
+        "column": 9,
+        "row": 13
+    },
+    {
+        "id": 100,
+        "element": "Fermium",
+        "symbol": "Fm",
+        "mass": 257,
+        "column": 9,
+        "row": 14
+    },
+    {
+        "id": 101,
+        "element": "Mendelevium",
+        "symbol": "Md",
+        "mass": 258,
+        "column": 9,
+        "row": 15
+    },
+    {
+        "id": 102,
+        "element": "Nobelium",
+        "symbol": "No",
+        "mass": 259,
+        "column": 9,
+        "row": 16
+    },
+    {
+        "id": 103,
+        "element": "Lawrencium",
+        "symbol": "Lr",
+        "mass": 262,
+        "column": 9,
+        "row": 17
     }
 ]

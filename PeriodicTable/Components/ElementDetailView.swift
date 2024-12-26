@@ -16,7 +16,7 @@ struct ElementDetailView: View {
             Button {
                 dismiss()
             } label: {
-                ElementCellView(element: element.element, symbol: element.symbol, atomicNumber: element.id, atomicMass: element.mass)
+                ElementCellView(element: element.element, symbol: element.symbol, atomicNumber: element.id, atomicMass: "\(element.mass)")
             }
             .matchedTransitionSource(id: element.id, in: animation)
             .frame(maxWidth: .infinity, alignment: .center)

@@ -10,7 +10,7 @@ struct ElementCellView: View {
     let element: String
     let symbol: String
     let atomicNumber: Int
-    let atomicMass: Double
+    let atomicMass: String
     
     var body: some View {
         VStack {
@@ -18,7 +18,7 @@ struct ElementCellView: View {
                 Text("\(atomicNumber)") // Atomic Number
                     .bold()
                 Spacer()
-                Text("\(atomicMass, specifier: "%.3f")") // Atomic Mass
+                Text(atomicMass) // Atomic Mass
             }
             Spacer()
             Text(symbol) // Symbol

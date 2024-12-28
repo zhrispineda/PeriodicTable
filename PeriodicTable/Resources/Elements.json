@@ -456,6 +456,118 @@
         "row": 3
     },
     {
+        "id": 58,
+        "element": "Cerium",
+        "symbol": "Ce",
+        "mass": 140.12,
+        "column": 8,
+        "row": 4
+    },
+    {
+        "id": 59,
+        "element": "Praseodymium",
+        "symbol": "Pr",
+        "mass": 140.91,
+        "column": 8,
+        "row": 5
+    },
+    {
+        "id": 60,
+        "element": "Neodymium",
+        "symbol": "Nd",
+        "mass": 144.24,
+        "column": 8,
+        "row": 6
+    },
+    {
+        "id": 61,
+        "element": "Promethium",
+        "symbol": "Pm",
+        "mass": 145,
+        "column": 8,
+        "row": 7
+    },
+    {
+        "id": 62,
+        "element": "Samarium",
+        "symbol": "Sm",
+        "mass": 150.36,
+        "column": 8,
+        "row": 8
+    },
+    {
+        "id": 63,
+        "element": "Europium",
+        "symbol": "Eu",
+        "mass": 151.96,
+        "column": 8,
+        "row": 9
+    },
+    {
+        "id": 64,
+        "element": "Gadolinium",
+        "symbol": "Gd",
+        "mass": 157.25,
+        "column": 8,
+        "row": 10
+    },
+    {
+        "id": 65,
+        "element": "Terbium",
+        "symbol": "Tb",
+        "mass": 158.93,
+        "column": 8,
+        "row": 11
+    },
+    {
+        "id": 66,
+        "element": "Dysprosium",
+        "symbol": "Dy",
+        "mass": 162.5,
+        "column": 8,
+        "row": 12
+    },
+    {
+        "id": 67,
+        "element": "Holmium",
+        "symbol": "Ho",
+        "mass": 164.93,
+        "column": 8,
+        "row": 13
+    },
+    {
+        "id": 68,
+        "element": "Erbium",
+        "symbol": "Er",
+        "mass": 167.26,
+        "column": 8,
+        "row": 14
+    },
+    {
+        "id": 69,
+        "element": "Thulium",
+        "symbol": "Tm",
+        "mass": 168.93,
+        "column": 8,
+        "row": 15
+    },
+    {
+        "id": 70,
+        "element": "Ytterbium",
+        "symbol": "Yb",
+        "mass": 173.04,
+        "column": 8,
+        "row": 16
+    },
+    {
+        "id": 71,
+        "element": "Lutetium",
+        "symbol": "Lu",
+        "mass": 174.97,
+        "column": 8,
+        "row": 17
+    },
+    {
         "id": 72,
         "element": "Hafnium",
         "symbol": "Hf",
@@ -600,6 +712,118 @@
         "row": 3
     },
     {
+        "id": 90,
+        "element": "Thorium",
+        "symbol": "Th",
+        "mass": 232.04,
+        "column": 9,
+        "row": 4
+    },
+    {
+        "id": 91,
+        "element": "Protactinium",
+        "symbol": "Pa",
+        "mass": 231.04,
+        "column": 9,
+        "row": 5
+    },
+    {
+        "id": 92,
+        "element": "Uranium",
+        "symbol": "U",
+        "mass": 238.03,
+        "column": 9,
+        "row": 6
+    },
+    {
+        "id": 93,
+        "element": "Neptunium",
+        "symbol": "Np",
+        "mass": 237.05,
+        "column": 9,
+        "row": 7
+    },
+    {
+        "id": 94,
+        "element": "Plutonium",
+        "symbol": "Pu",
+        "mass": 244,
+        "column": 9,
+        "row": 8
+    },
+    {
+        "id": 95,
+        "element": "Americium",
+        "symbol": "Am",
+        "mass": 243,
+        "column": 9,
+        "row": 9
+    },
+    {
+        "id": 96,
+        "element": "Curium",
+        "symbol": "Cm",
+        "mass": 247,
+        "column": 9,
+        "row": 10
+    },
+    {
+        "id": 97,
+        "element": "Berkelium",
+        "symbol": "Bk",
+        "mass": 247,
+        "column": 9,
+        "row": 11
+    },
+    {
+        "id": 98,
+        "element": "Californium",
+        "symbol": "Cf",
+        "mass": 251,
+        "column": 9,
+        "row": 12
+    },
+    {
+        "id": 99,
+        "element": "Einsteinium",
+        "symbol": "Es",
+        "mass": 252,
+        "column": 9,
+        "row": 13
+    },
+    {
+        "id": 100,
+        "element": "Fermium",
+        "symbol": "Fm",
+        "mass": 257,
+        "column": 9,
+        "row": 14
+    },
+    {
+        "id": 101,
+        "element": "Mendelevium",
+        "symbol": "Md",
+        "mass": 258,
+        "column": 9,
+        "row": 15
+    },
+    {
+        "id": 102,
+        "element": "Nobelium",
+        "symbol": "No",
+        "mass": 259,
+        "column": 9,
+        "row": 16
+    },
+    {
+        "id": 103,
+        "element": "Lawrencium",
+        "symbol": "Lr",
+        "mass": 262,
+        "column": 9,
+        "row": 17
+    },
+    {
         "id": 104,
         "element": "Rutherfordium",
         "symbol": "Rf",
@@ -718,229 +942,5 @@
         "mass": 294,
         "column": 7,
         "row": 18
-    },
-    {
-        "id": 58,
-        "element": "Cerium",
-        "symbol": "Ce",
-        "mass": 140.12,
-        "column": 8,
-        "row": 4
-    },
-    {
-        "id": 59,
-        "element": "Praseodymium",
-        "symbol": "Pr",
-        "mass": 140.91,
-        "column": 8,
-        "row": 5
-    },
-    {
-        "id": 60,
-        "element": "Neodymium",
-        "symbol": "Nd",
-        "mass": 144.24,
-        "column": 8,
-        "row": 6
-    },
-    {
-        "id": 61,
-        "element": "Promethium",
-        "symbol": "Pm",
-        "mass": 145,
-        "column": 8,
-        "row": 7
-    },
-    {
-        "id": 62,
-        "element": "Samarium",
-        "symbol": "Sm",
-        "mass": 150.36,
-        "column": 8,
-        "row": 8
-    },
-    {
-        "id": 63,
-        "element": "Europium",
-        "symbol": "Eu",
-        "mass": 151.96,
-        "column": 8,
-        "row": 9
-    },
-    {
-        "id": 64,
-        "element": "Gadolinium",
-        "symbol": "Gd",
-        "mass": 157.25,
-        "column": 8,
-        "row": 10
-    },
-    {
-        "id": 65,
-        "element": "Terbium",
-        "symbol": "Tb",
-        "mass": 158.93,
-        "column": 8,
-        "row": 11
-    },
-    {
-        "id": 66,
-        "element": "Dysprosium",
-        "symbol": "Dy",
-        "mass": 162.5,
-        "column": 8,
-        "row": 12
-    },
-    {
-        "id": 67,
-        "element": "Holmium",
-        "symbol": "Ho",
-        "mass": 164.93,
-        "column": 8,
-        "row": 13
-    },
-    {
-        "id": 68,
-        "element": "Erbium",
-        "symbol": "Er",
-        "mass": 167.26,
-        "column": 8,
-        "row": 14
-    },
-    {
-        "id": 69,
-        "element": "Thulium",
-        "symbol": "Tm",
-        "mass": 168.93,
-        "column": 8,
-        "row": 15
-    },
-    {
-        "id": 70,
-        "element": "Ytterbium",
-        "symbol": "Yb",
-        "mass": 173.04,
-        "column": 8,
-        "row": 16
-    },
-    {
-        "id": 71,
-        "element": "Lutetium",
-        "symbol": "Lu",
-        "mass": 174.97,
-        "column": 8,
-        "row": 17
-    },
-    {
-        "id": 90,
-        "element": "Thorium",
-        "symbol": "Th",
-        "mass": 232.04,
-        "column": 9,
-        "row": 4
-    },
-    {
-        "id": 91,
-        "element": "Protactinium",
-        "symbol": "Pa",
-        "mass": 231.04,
-        "column": 9,
-        "row": 5
-    },
-    {
-        "id": 92,
-        "element": "Uranium",
-        "symbol": "U",
-        "mass": 238.03,
-        "column": 9,
-        "row": 6
-    },
-    {
-        "id": 93,
-        "element": "Neptunium",
-        "symbol": "Np",
-        "mass": 237.05,
-        "column": 9,
-        "row": 7
-    },
-    {
-        "id": 94,
-        "element": "Plutonium",
-        "symbol": "Pu",
-        "mass": 244,
-        "column": 9,
-        "row": 8
-    },
-    {
-        "id": 95,
-        "element": "Americium",
-        "symbol": "Am",
-        "mass": 243,
-        "column": 9,
-        "row": 9
-    },
-    {
-        "id": 96,
-        "element": "Curium",
-        "symbol": "Cm",
-        "mass": 247,
-        "column": 9,
-        "row": 10
-    },
-    {
-        "id": 97,
-        "element": "Berkelium",
-        "symbol": "Bk",
-        "mass": 247,
-        "column": 9,
-        "row": 11
-    },
-    {
-        "id": 98,
-        "element": "Californium",
-        "symbol": "Cf",
-        "mass": 251,
-        "column": 9,
-        "row": 12
-    },
-    {
-        "id": 99,
-        "element": "Einsteinium",
-        "symbol": "Es",
-        "mass": 252,
-        "column": 9,
-        "row": 13
-    },
-    {
-        "id": 100,
-        "element": "Fermium",
-        "symbol": "Fm",
-        "mass": 257,
-        "column": 9,
-        "row": 14
-    },
-    {
-        "id": 101,
-        "element": "Mendelevium",
-        "symbol": "Md",
-        "mass": 258,
-        "column": 9,
-        "row": 15
-    },
-    {
-        "id": 102,
-        "element": "Nobelium",
-        "symbol": "No",
-        "mass": 259,
-        "column": 9,
-        "row": 16
-    },
-    {
-        "id": 103,
-        "element": "Lawrencium",
-        "symbol": "Lr",
-        "mass": 262,
-        "column": 9,
-        "row": 17
     }
 ]

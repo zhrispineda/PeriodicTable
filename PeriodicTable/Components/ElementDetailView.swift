@@ -26,7 +26,7 @@ struct ElementDetailView: View {
             Section("Information") {
                 Group {
                     LabeledContent("Atomic Number", value: "\(element.id)")
-                    LabeledContent("Atomic Mass", value: "\(element.mass)")
+                    LabeledContent("Atomic Mass", value: "\(element.mass) u")
                     LabeledContent("Symbol", value: element.symbol)
                     LabeledContent("Name", value: element.element)
                 }

@@ -20,11 +20,11 @@ struct ContentView: View {
             }
             
             Tab("Information", systemImage: "info.circle", value: .information) {
-                EmptyView()
+                InformationView()
             }
             
             Tab("Settings", systemImage: "gear", value: .settings) {
-                EmptyView()
+                SettingsView()
             }
         }
     }

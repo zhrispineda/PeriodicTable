@@ -4,19 +4,20 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct PeriodicTableView: View {
-    // Variables
     @Namespace var animation
     @State private var selected: Element?
     @State private var listMode = false
-    var elements: [Element] = ElementModel().load("Elements.json")
+    var elements: [Element] = ElementModel().load("Elements")
     let formatter = NumberFormatter()
     
     init() {
         formatter.numberStyle = .decimal
         formatter.minimumFractionDigits = 0
         formatter.maximumFractionDigits = 4
+        try? Tips.configure()
     }
     
     var body: some View {
@@ -96,6 +97,7 @@ struct PeriodicTableView: View {
                                                 }
                                         }
                                         .matchedTransitionSource(id: element.id, in: animation)
+                                        .popoverTip(ElementTip())
                                     } else {
                                         Rectangle()
                                             .frame(width: 100, height: 130)
@@ -135,6 +137,16 @@ struct PeriodicTableView: View {
                 }
             }
         }
+    }
+}
+
+struct ElementTip: Tip {
+    var title: Text {
+        Text("Interact with Elements")
+    }
+    
+    var message: Text? {
+        Text("View information and quick copy actions by tapping or holding down an element.")
     }
 }
 

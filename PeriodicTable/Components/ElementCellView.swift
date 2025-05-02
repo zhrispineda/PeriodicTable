@@ -6,7 +6,6 @@
 import SwiftUI
 
 struct ElementCellView: View {
-    // Variables
     let element: String
     let symbol: String
     let atomicNumber: Int

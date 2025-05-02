@@ -4,9 +4,9 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct ElementDetailView: View {
-    // Variables
     @Environment(\.dismiss) private var dismiss
     var element: Element
     var animation: Namespace.ID
@@ -21,6 +21,7 @@ struct ElementDetailView: View {
             .matchedTransitionSource(id: element.id, in: animation)
             .frame(maxWidth: .infinity, alignment: .center)
             .listRowBackground(Color.clear)
+            .popoverTip(DismissTip(), arrowEdge: .bottom)
             
             // Information Section
             Section("Information") {
@@ -34,6 +35,16 @@ struct ElementDetailView: View {
             }
         }
         .navigationTransition(.zoom(sourceID: element.id, in: animation))
+    }
+}
+
+struct DismissTip: Tip {
+    var title: Text {
+        Text("Return to Periodic Table")
+    }
+    
+    var message: Text? {
+        Text("Tap or swipe down the element rectangle to go back.")
     }
 }
 

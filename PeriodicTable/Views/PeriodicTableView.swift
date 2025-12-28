@@ -8,10 +8,20 @@ import TipKit
 
 struct PeriodicTableView: View {
     @Namespace var animation
+    @State private var searchText = ""
     @State private var selected: Element?
     @State private var listMode = false
     var elements: [Element] = ElementModel().load("Elements")
     let formatter = NumberFormatter()
+    var filteredElements: [Element] {
+        guard !searchText.isEmpty else { return elements }
+
+        return elements.filter {
+            $0.element.localizedCaseInsensitiveContains(searchText) ||
+            $0.symbol.localizedCaseInsensitiveContains(searchText) ||
+            String($0.id).contains(searchText)
+        }
+    }
     
     init() {
         formatter.numberStyle = .decimal
@@ -24,7 +34,7 @@ struct PeriodicTableView: View {
         NavigationStack {
             if listMode {
                 List {
-                    ForEach(elements) { element in
+                    ForEach(filteredElements) { element in
                         let formattedMass = formatter.string(from: NSNumber(value: element.mass))
                         
                         NavigationLink(destination: ElementDetailView(element: element, animation: animation)) {
@@ -61,6 +71,8 @@ struct PeriodicTableView: View {
                     }
                 }
                 .navigationTitle("Elements")
+                .navigationBarTitleDisplayMode(.inline)
+                .searchable(text: $searchText)
                 .toolbar {
                     Button("Grid", systemImage: "square.grid.3x3.fill") {
                         withAnimation {
@@ -75,7 +87,9 @@ struct PeriodicTableView: View {
                             LazyVStack(alignment: .leading) {
                                 ForEach(1..<10) { column in
                                     // Display matching element based on column and row, otherwise display blank space
-                                    if let element = elements.first(where: { $0.column == column && $0.row == row }) {
+                                    if let element = filteredElements.first(where: {
+                                        $0.column == column && $0.row == row
+                                    }) {
                                         let formattedMass = formatter.string(from: NSNumber(value: element.mass))
                                         
                                         Button {
@@ -128,6 +142,7 @@ struct PeriodicTableView: View {
                 .contentMargins(10, for: .scrollContent)
                 .scrollIndicators(.hidden)
                 .navigationTitle("Elements")
+                .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     Button("List", systemImage: "list.bullet") {
                         withAnimation {
